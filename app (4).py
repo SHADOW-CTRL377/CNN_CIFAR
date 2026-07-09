@@ -5,7 +5,7 @@ from PIL import Image
 
 import joblib
 
-model = joblib.load("YOUR_MODEL_NAME.pkl")
+model = joblib.load("cnn_cifar10_model.pkl")
 # 2. CIFAR-10 class names
 classes = [
     "Airplane", "Automobile", "Bird", "Cat", "Deer",
