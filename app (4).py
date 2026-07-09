@@ -3,9 +3,9 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-# 1. Load the model using the native Keras 3 format
-model = tf.pkl.models.load_model("cnn_cifar10_model.pkl")
+import joblib
 
+model = joblib.load("YOUR_MODEL_NAME.pkl")
 # 2. CIFAR-10 class names
 classes = [
     "Airplane", "Automobile", "Bird", "Cat", "Deer",
