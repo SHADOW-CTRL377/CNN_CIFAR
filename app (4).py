@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # 1. Load the model using the native Keras 3 format
-model = tf.keras.models.load_model("cnn_cifar10_model.keras")
+model = tf.keras.models.load_model("cnn_cifar10_model.pkl")
 
 # 2. CIFAR-10 class names
 classes = [
